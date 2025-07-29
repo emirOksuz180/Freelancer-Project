@@ -1,0 +1,31 @@
+@use "variables";
+
+#main-footer {
+    background: variables.$dark-color;
+    color: #fff;
+    height: 5rem;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+
+        .social .fab {
+            margin-right: 1rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            padding: 1.5rem;
+            transition: all .6s;
+  
+
+            &:hover {
+                background: variables.$primary-color;
+                cursor: pointer;
+                border-radius: 50%;
+            }
+        }
+    } 
+}
