@@ -4,10 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss":"sass --watch --style=compressed scss:public/css"
+    "scss": "sass --watch --style=compressed scss:public/css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  }
 }
