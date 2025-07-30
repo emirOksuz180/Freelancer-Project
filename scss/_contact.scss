@@ -43,6 +43,22 @@
             padding: .5rem 1rem;
            }
 
+           .input[type="text"]:focus {
+            outline-color: variables.$primary-color;
+           }
+
+           .input[type="email"]:focus {
+            outline-color: variables.$primary-color;
+           }
+
+           .input[type="tel"]:focus {
+            outline-color: variables.$primary-color;
+           }
+
+           .input[id="message"]:focus {
+            outline-color: variables.$primary-color;
+           }
+
 
     }
 
